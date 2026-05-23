@@ -164,5 +164,7 @@ In Chapter 2.3, you audited your workflow and selected one safe, high-volume, bo
 
 By completing this bake-off, you will not only have a reusable prompt that saves you hours every week, but you will possess the critical fluency to know *which* tool is actually best suited for your department's specific needs.
 
+The Delegation Blueprint is the foundation. If you continue your AI journey into the companion **AI Integration** playbook, this same blueprint becomes the starting point for the AI Champion role — the person inside a department who turns individual fluency into organizational impact. The work you do here is reusable; do not throw it away.
+
 **Wrap-up**
 Abstract concepts do not save you time; concrete workflows do. By combining the 4Cs framework with specific departmental needs, you transform AI from a novelty chatbot into a high-powered, integrated assistant ready to handle your daily operational burdens.

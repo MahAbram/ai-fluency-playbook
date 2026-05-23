@@ -52,7 +52,7 @@ Understanding how AI works is only half of AI fluency; the other half is underst
 
 ### Guarding the Data: The Corporate Firewall
 
-The single most important rule for the modern professional using AI is understanding data sovereignty. Public LLMs (like the free versions of ChatGPT or Claude) often use the information you type into the chat box to further train their future models.
+The single most important rule for the modern professional using AI is understanding data sovereignty. Data-handling policies vary by provider and tier, and they shift frequently — some providers use free-tier chat data for training unless you explicitly opt out, others do not train on consumer chat data at all. The practical rule is to assume the worst until you have verified the specific policy of the tool you are using, in writing, with your IT or legal team.
 
 If you paste sensitive intellectual property into a public tool, you are effectively publishing it.
 
@@ -107,39 +107,25 @@ True AI fluency requires defensive driving. By strictly guarding your corporate 
 You have learned the history, and you understand the ethical guardrails. But abstract theory does not save you time on a Tuesday morning. The most common hurdle non-technical professionals face is the "Blank Canvas Problem." They log into ChatGPT or Copilot, stare at the blinking cursor, and simply do not know what to ask the machine to do.
 
 To bridge the gap between theory and execution, we must look at how AI is actively reshaping real industries. By observing macro-level transformations, you can identify micro-level use cases for your specific department.
-
 ### Industry Case Studies: Beyond the Hype
 
 **1. Healthcare: Diagnostics and Administrative Relief**
-In the medical field, AI is not replacing doctors; it is augmenting them. AI is transforming global health by rapidly analyzing complex medical data. On the clinical side, machine learning models are used to review thousands of X-rays and MRI scans, flagging anomalies faster than the human eye.
+In the medical field, AI is augmenting doctors rather than replacing them. Machine learning models analyze X-rays and MRI scans to flag anomalies faster than the human eye.
 
-However, the more relatable transformation for the white-collar professional is administrative. Doctors spend hours daily writing patient notes and navigating electronic health records. Today, ambient AI tools listen to a doctor-patient consultation and automatically generate a structured, perfectly formatted clinical note, saving hours of data entry and allowing the physician to focus entirely on the patient.
+The more relatable transformation for the white-collar professional is administrative. Physicians have historically spent hours each day writing patient notes — a major driver of clinician burnout. Today, "ambient AI" tools listen to a doctor-patient consultation and automatically generate a structured clinical note. Adoption has moved past pilot programs: as of June 2025, nearly two-thirds (62.6%) of U.S. hospitals using Epic's electronic health record system had deployed ambient AI tools for clinical documentation.  A University of Wisconsin study found that clinicians using ambient AI spent 8.5% less total time in the EHR, with documentation time dropping by roughly 30 minutes per provider per day — and an Emory Healthcare study showed burnout among ambulatory clinicians decreased from 51.9% to 38.8% within 30 days of deployment. 
 
 * *The Translation for You:* If AI can structure a messy medical consultation into a clinical note, it can certainly structure your messy 60-minute Zoom transcript into a clean list of action items.
 
-**2. Financial Services: Risk and Personalization**
-The financial sector is rapidly adopting these tools. Artificial intelligence is reshaping the financial services industry, driving efficiencies in fraud detection, risk management, and personalized customer service.
+**2. Financial Services: Document Analysis and Risk**
+The financial sector is one of the most aggressive adopters of AI for back-office work. Banks use advanced pattern recognition to instantly flag transactions that deviate from your normal spending habits. On the document-heavy side, JPMorgan Chase's COiN (Contract Intelligence) platform is the canonical case study: launched in 2017 to automate the review of commercial credit agreements, COiN reduced what was previously 360,000 hours of annual manual review to seconds, with the platform able to process 12,000 commercial credit agreements in the time it used to take to review a handful. 
 
-Banks use advanced pattern recognition to instantly flag transactions that deviate from your normal spending habits. On the generative side, wealth management firms use LLMs to ingest hundreds of pages of complex, daily market regulatory changes and synthesize them into personalized, one-page morning briefings for individual financial advisors.
+* *The Translation for You:* If AI can extract clauses, risks, and obligations from a 100-page commercial credit agreement, it can certainly summarize complex vendor contracts, dense industry reports, or a backlog of policy updates for your department.
 
-* *The Translation for You:* If AI can summarize vast regulatory documents for a banker, it can summarize complex vendor contracts, dense industry reports, or a backlog of policy updates for your department.
+**3. Retail: Inventory and Content at Scale**
+Retailers leverage AI to bridge the physical and digital shopping divide — optimizing supply chain logistics, forecasting inventory, and personalizing customer experiences. The most visible generative AI use case is content at scale: Shopify's Magic suite and Amazon's seller tools now allow individual merchants to generate hundreds of unique, SEO-optimized product descriptions in minutes — a task that previously required either a copywriting team or weeks of solo grinding.
 
-**3. Retail: Inventory and Experience**
-Retailers are leveraging AI to bridge the physical and digital shopping divide. AI in retail helps optimize supply chain logistics, manage inventory forecasting, and deliver highly personalized customer shopping experiences.
+* *The Translation for You:* Any time your job requires generating a high volume of repetitive but slightly varied text (tailored outreach emails, product descriptions, customized training materials), AI can do the heavy lifting.
 
-Generative models are used to instantly write thousands of unique, SEO-optimized product descriptions for e-commerce catalogs—a task that would take a human copywriting team weeks.
-
-* *The Translation for You:* Any time your job requires generating a high volume of repetitive but slightly varied text (like tailored outreach emails, product descriptions, or customized training materials), AI can do the heavy lifting.
-
-### Launching the Use Case Discovery Workshop
-
-Seeing how industries use AI is helpful, but true fluency requires building workflows tailored to *your* desk. To do this, we borrow from structured AI use case identification frameworks. These frameworks guide users from a blank canvas to impactful scoring by systematically evaluating workflows. Furthermore, utilizing an agentic AI use case framework helps organizations prioritize tasks that will yield the highest return on investment.
-
-To find your first high-value use case, you must audit your own workday using three criteria:
-
-1. **High Volume (The Tedium Metric):** What is a text-based or data-formatting task you do repeatedly? (e.g., Reformatting weekly expense reports, drafting repetitive client onboarding emails).
-2. **The Bottleneck (The Synthesis Metric):** Where do you spend too much time reading and summarizing? (e.g., Spending three hours reading a single industry whitepaper to extract five bullet points).
-3. **Low Risk (The Feasibility Metric):** If the AI makes a mistake on this task, is the blast radius small and easily correctable by you before anyone else sees it?
 
 ### Launching the AI Delegation Blueprint
 

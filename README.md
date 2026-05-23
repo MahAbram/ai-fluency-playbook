@@ -18,7 +18,7 @@ This leaves the average professional in a lurch: you know AI is important, but y
 
 1. **Non-Technical First:** We don't write code. We don't talk about Python. We talk about spreadsheets, vendor proposals, meeting transcripts, and hiring guides.
 2. **Methodology, Not Magic:** We teach the **4Cs Framework (Context, Clarity, Constraint, Content)**—a repeatable discipline for getting boardroom-ready results every time.
-3. **Tool-Agnostic:** We don't play favorites. We put the "Big Four" (ChatGPT, Claude, Gemini, and Microsoft Copilot) into a "Bake-Off" to show you which tool actually wins for your specific department.
+3. **Tool-Agnostic:** We don't play favorites. We teach you how to run a "Big Four Bake-Off" — putting ChatGPT, Claude, Gemini, and Microsoft Copilot through the same test using your own real work, so you can see for yourself which tool actually wins for your specific department.
 4. **Depth with Accessibility:** We go "under the hood" to explain Transformers and Context Windows using office-based analogies, giving you the fluency to lead AI strategy in your organization.
 5. **The Delegation Blueprint:** You don't leave with notes; you leave with a **Delegation Blueprint**—a validated set of prompts and guardrails tailored to your actual job.
 
@@ -27,6 +27,9 @@ This leaves the average professional in a lurch: you know AI is important, but y
 ## The Structure
 
 The playbook is organized into four parts, moving from foundational concepts to advanced organizational strategy.
+
+### Start Here (Optional but Recommended)
+* **The 30-Minute Path:** A short chapter for the fatigued reader. The one idea that matters most, the one framework that works, one prompt to try today, and one rule that will save you. Read this first if you only have half an hour.
 
 ### Part 1: What is AI?
 * **The Capable Intern:** Shifting your mental model from "Searching" to "Delegating."
@@ -62,7 +65,8 @@ The playbook is organized into four parts, moving from foundational concepts to 
 
 This is a **live document**. The AI space moves faster than the traditional publishing cycle. 
 
-* **Read it linearly** if you are new to AI.
+* **If you only have 30 minutes:** Read the *Start Here* chapter. It gives you the core mental model, the one framework that works, and a prompt you can apply to a real task today. Everything else is depth on these four ideas.
+* **Read it linearly** if you are new to AI and want a complete foundation.
 * **Jump to Part 3** if you need a prompt for a task due in an hour.
 * **Consult Part 4** if you are in a meeting with IT and need to understand the security implications of a new tool.
 

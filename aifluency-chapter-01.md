@@ -139,7 +139,7 @@ Because LLMs have vast context windows, they are exceptional at reading massive 
 * *Use Case:* A Financial Analyst can upload a 100-page regulatory filing and prompt the AI: "Read this document and extract only the clauses that deal with data privacy penalties. Present them in a table comparing the penalty type to the maximum fine amount."
 
 **3. Ideation and Overcoming "Blank Page Syndrome"**
-AI is the ultimate cure for the blank page. It is highly creative when properly prompted, capable of generating dozens of variations of an idea in seconds.
+AI is one of the most effective tools for breaking out of "blank page syndrome." It can produce dozens of variations of a phrase, hook, or angle in seconds — not because it is genuinely creative in the human sense, but because it can rapidly recombine patterns from its training data. Your job shifts from creating from scratch to editing and selecting.
 
 * *Use Case:* A Marketing Coordinator needs to write a LinkedIn post about a dry, technical product update. Instead of staring at a blinking cursor, they feed the technical specs to the AI and say, "Give me 10 different opening hooks for a LinkedIn post about this update. Make five of them professional, three of them humorous, and two of them framed as a question to the reader." You are now editing, rather than creating from scratch.
 
