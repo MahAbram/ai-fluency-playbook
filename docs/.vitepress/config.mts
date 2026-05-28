@@ -2,66 +2,95 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "AI Fluency Playbook",
-  appearance: 'dark',
   description: "A Playbook for the Modern Professional",
   base: '/ai-fluency-playbook/',
-
-  outline: {
-  level: [2, 3],
-  label: 'On this page'
-  },
+  appearance: 'dark',
 
   themeConfig: {
+
+    // ── TOP NAV ──────────────────────────────────────────────────
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start Here', link: '/start-here' },
+      {
+        text: 'Parts',
+        items: [
+          { text: 'Part 1: What is AI?', link: '/chapter-1-1' },
+          { text: 'Part 2: Evolution & Ethics', link: '/chapter-2-1' },
+          { text: 'Part 3: Interacting with AI', link: '/chapter-3-1' },
+          { text: 'Part 4: Advanced AI Fluency', link: '/chapter-4-1' },
+        ]
+      },
       { text: 'About', link: '/about' },
     ],
 
+    // ── SIDEBAR ──────────────────────────────────────────────────
     sidebar: [
-  {
-    text: 'The Playbook',
-    items: [
-      { text: 'Start Here', link: '/start-here' },
-      { text: 'About', link: '/about' },
-    ]
-  },
-  {
-    text: 'Part 1: What is AI?',
-    collapsed: false,
-    items: [
-      { text: 'Chapter 1 Overview', link: '/chapter-01' },
-    ]
-  },
-  {
-    text: 'Part 2: Evolution & Ethics',
-    collapsed: true,
-    items: [
-      { text: 'Chapter 2 Overview', link: '/chapter-02' },
-    ]
-  },
-  {
-    text: 'Part 3: Interacting with AI',
-    collapsed: true,
-    items: [
-      { text: 'Chapter 3 Overview', link: '/chapter-03' },
-    ]
-  },
-  {
-    text: 'Part 4: Advanced AI Fluency',
-    collapsed: true,
-    items: [
-      { text: 'Chapter 4 Overview', link: '/chapter-04' },
-    ]
-  }
-],
+      {
+        text: 'Getting Started',
+        items: [
+          { text: 'Start Here', link: '/start-here' },
+        ]
+      },
+      {
+        text: 'Part 1: What is AI?',
+        collapsed: false,
+        items: [
+          { text: '1.1 Meet Your Capable Intern', link: '/chapter-1-1' },
+          { text: '1.2 The Language of AI', link: '/chapter-1-2' },
+          { text: '1.3 The Capabilities Sandbox', link: '/chapter-1-3' },
+        ]
+      },
+      {
+        text: 'Part 2: Evolution & Ethics',
+        collapsed: true,
+        items: [
+          { text: '2.1 The Three Eras of AI', link: '/chapter-2-1' },
+          { text: '2.2 Ethical Usage & Guardrails', link: '/chapter-2-2' },
+          { text: '2.3 The Office Turing Test', link: '/chapter-2-3' },
+        ]
+      },
+      {
+        text: 'Part 3: Interacting with AI',
+        collapsed: true,
+        items: [
+          { text: '3.1 Searching vs Prompting', link: '/chapter-3-1' },
+          { text: '3.2 The 4Cs Framework', link: '/chapter-3-2' },
+          { text: '3.3 Advanced Prompting', link: '/chapter-3-3' },
+          { text: '3.4 Departmental Templates', link: '/chapter-3-4' },
+        ]
+      },
+      {
+        text: 'Part 4: Advanced AI Fluency',
+        collapsed: true,
+        items: [
+          { text: '4.1 Under the Hood', link: '/chapter-4-1' },
+          { text: '4.2 The Big Four Model Matrix', link: '/chapter-4-2' },
+          { text: '4.3 Enterprise Considerations', link: '/chapter-4-3' },
+          { text: '4.4 Building Your Blueprint', link: '/chapter-4-4' },
+          { text: '4.5 The Road to AGI', link: '/chapter-4-5' },
+        ]
+      },
+      {
+        text: 'More',
+        items: [
+          { text: 'About', link: '/about' },
+        ]
+      },
+    ],
 
+    // ── SOCIAL + SEARCH + FOOTER ─────────────────────────────────
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MahAbram/ai-fluency-playbook' }
     ],
 
     search: {
       provider: 'local'
+    },
+
+    outline: {
+      level: [2, 3],
+      label: 'On this page'
     },
 
     footer: {
