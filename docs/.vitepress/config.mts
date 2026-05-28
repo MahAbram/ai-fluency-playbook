@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start Here', link: '/start-here' },
+      { text: 'About', link: '/about' },
     ],
 
     sidebar: [
@@ -51,7 +52,8 @@ export default defineConfig({
     items: [
       { text: 'Chapter 4 Overview', link: '/chapter-04' },
     ]
-  }
+  },
+  { text: 'About', link: '/about' },
 ],
 
     socialLinks: [
