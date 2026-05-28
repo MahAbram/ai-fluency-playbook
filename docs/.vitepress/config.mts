@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "AI Fluency Playbook",
+  appearance: 'dark',
   description: "A Playbook for the Modern Professional",
   base: '/ai-fluency-playbook/',
 
