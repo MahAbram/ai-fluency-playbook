@@ -23,6 +23,7 @@ export default defineConfig({
     text: 'The Playbook',
     items: [
       { text: 'Start Here', link: '/start-here' },
+      { text: 'About', link: '/about' },
     ]
   },
   {
@@ -52,8 +53,7 @@ export default defineConfig({
     items: [
       { text: 'Chapter 4 Overview', link: '/chapter-04' },
     ]
-  },
-  { text: 'About', link: '/about' },
+  }
 ],
 
     socialLinks: [
