@@ -47,7 +47,7 @@ export default defineConfig({
         items: [
           { text: '2.1 The Three Eras of AI', link: '/chapter-2-1' },
           { text: '2.2 Ethical Usage & Guardrails', link: '/chapter-2-2' },
-          { text: '2.3 The Office Turing Test', link: '/chapter-2-3' },
+          { text: '2.3 AI in the Real World', link: '/chapter-2-3' },
         ]
       },
       {
@@ -55,20 +55,20 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '3.1 Searching vs Prompting', link: '/chapter-3-1' },
-          { text: '3.2 The 4Cs Framework', link: '/chapter-3-2' },
-          { text: '3.3 Advanced Prompting', link: '/chapter-3-3' },
-          { text: '3.4 Departmental Templates', link: '/chapter-3-4' },
+          { text: '3.2 The 4Cs Framework (Context & Clarity)', link: '/chapter-3-2' },
+          { text: '3.3 The 4Cs Framework (Constraint & Content)', link: '/chapter-3-3' },
+          { text: '3.4 Departmental Plug-and-Play', link: '/chapter-3-4' },
         ]
       },
       {
         text: 'Part 4: Advanced AI Fluency',
         collapsed: true,
         items: [
-          { text: '4.1 Under the Hood', link: '/chapter-4-1' },
+          { text: '4.1 How LLMs Actually Work', link: '/chapter-4-1' },
           { text: '4.2 The Big Four Model Matrix', link: '/chapter-4-2' },
           { text: '4.3 Enterprise Considerations', link: '/chapter-4-3' },
-          { text: '4.4 Building Your Blueprint', link: '/chapter-4-4' },
-          { text: '4.5 The Road to AGI', link: '/chapter-4-5' },
+          { text: '4.4 The Historical Deep Dive', link: '/chapter-4-4' },
+          { text: '4.5 The Evolution to AGI and Future Directions', link: '/chapter-4-5' },
         ]
       },
       {
