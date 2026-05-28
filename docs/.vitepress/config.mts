@@ -6,6 +6,11 @@ export default defineConfig({
   description: "A Playbook for the Modern Professional",
   base: '/ai-fluency-playbook/',
 
+  outline: {
+  level: [2, 3],
+  label: 'On this page'
+  },
+
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
