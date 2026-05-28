@@ -13,17 +13,41 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'The Playbook',
-        items: [
-          { text: 'Start Here', link: '/start-here' },
-          { text: 'Chapter 1: What is AI?', link: '/chapter-01' },
-          { text: 'Chapter 2: Evolution & Ethics', link: '/chapter-02' },
-          { text: 'Chapter 3: Interacting with AI', link: '/chapter-03' },
-          { text: 'Chapter 4: Advanced AI Fluency', link: '/chapter-04' },
-        ]
-      }
-    ],
+  {
+    text: 'The Playbook',
+    items: [
+      { text: 'Start Here', link: '/start-here' },
+    ]
+  },
+  {
+    text: 'Part 1: What is AI?',
+    collapsed: false,
+    items: [
+      { text: 'Chapter 1 Overview', link: '/chapter-01' },
+    ]
+  },
+  {
+    text: 'Part 2: Evolution & Ethics',
+    collapsed: true,
+    items: [
+      { text: 'Chapter 2 Overview', link: '/chapter-02' },
+    ]
+  },
+  {
+    text: 'Part 3: Interacting with AI',
+    collapsed: true,
+    items: [
+      { text: 'Chapter 3 Overview', link: '/chapter-03' },
+    ]
+  },
+  {
+    text: 'Part 4: Advanced AI Fluency',
+    collapsed: true,
+    items: [
+      { text: 'Chapter 4 Overview', link: '/chapter-04' },
+    ]
+  }
+],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MahAbram/ai-fluency-playbook' }
