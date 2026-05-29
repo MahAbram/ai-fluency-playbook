@@ -25,9 +25,8 @@ This leaves the average professional in a lurch: you know AI is important, but y
 ---
 
 ## The Structure
-
 The playbook is organized into four parts, moving from foundational concepts to advanced organizational strategy.
-
+ 
 ### Start Here (Optional but Recommended)
 * **The 30-Minute Path:** A short chapter for the fatigued reader. The one idea that matters most, the one framework that works, one prompt to try today, and one rule that will save you. Read this first if you only have half an hour.
 
@@ -39,11 +38,13 @@ The playbook is organized into four parts, moving from foundational concepts to 
 ### Part 2: Evolution, Ethics, and Applications
 * **The 3 Eras:** Why modern Generative AI is different from the "brittle" software of the past.
 * **Corporate Guardrails:** How to use AI without committing a data breach or inheriting historical bias.
+* **The Verification Habit:** How to trust AI output safely by checking the few things it most often gets wrong.
 * **The Office Turing Test:** Learning to recognize (and fix) the "robotic" AI voice.
 
 ### Part 3: Interacting with AI
 * **Searching vs. Prompting:** Breaking the 30-year habit of keyword search.
 * **The 4Cs Framework:** Master-class in Context, Clarity, Constraint, and Content.
+* **When the Intern Gets It Wrong:** A troubleshooting guide for rescuing prompts that keep failing.
 * **Departmental Plug-and-Play:** Ready-to-use templates for HR, Finance, Ops, and Marketing.
 
 ### Part 4: Advanced AI Fluency
