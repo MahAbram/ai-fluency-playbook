@@ -47,7 +47,8 @@ export default defineConfig({
         items: [
           { text: '2.1 The Three Eras of AI', link: '/chapter-2-1' },
           { text: '2.2 Ethical Usage & Guardrails', link: '/chapter-2-2' },
-          { text: '2.3 AI in the Real World', link: '/chapter-2-3' },
+          { text: '2.3 The Verification Habit', link: '/chapter-2-3' },
+          { text: '2.4 AI in the Real World', link: '/chapter-2-4' },
         ]
       },
       {
@@ -57,7 +58,8 @@ export default defineConfig({
           { text: '3.1 Searching vs Prompting', link: '/chapter-3-1' },
           { text: '3.2 The 4Cs Framework (Context & Clarity)', link: '/chapter-3-2' },
           { text: '3.3 The 4Cs Framework (Constraint & Content)', link: '/chapter-3-3' },
-          { text: '3.4 Departmental Plug-and-Play', link: '/chapter-3-4' },
+          { text: '3.4 When the Intern Gets It Wrong (A Troubleshooting Guide)', link: '/chapter-3-4' },
+          { text: '3.5 Departmental Plug-and-Play', link: '/chapter-3-5' },
         ]
       },
       {
