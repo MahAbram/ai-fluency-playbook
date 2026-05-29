@@ -25,6 +25,7 @@ This leaves the average professional in a lurch: you know AI is important, but y
 ---
 
 ## The Structure
+
 The playbook is organized into four parts, moving from foundational concepts to advanced organizational strategy.
  
 ### Start Here (Optional but Recommended)
