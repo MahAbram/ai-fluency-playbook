@@ -1,55 +1,43 @@
-# Chapter 3.4: Departmental Plug-and-Play
-
-You understand the theory of the Capable Intern, you know how the context window works, and you have mastered the 4Cs framework. Now, it is time to apply this methodology directly to your desk.
-
-Below are concrete, plug-and-play templates tailored to specific departments. Notice how every single prompt rigidly adheres to Context, Clarity, Constraint, and Content.
-
-## Operations & Procurement: Vendor Analysis
-
-**The Bottleneck:** Spending hours reading dense vendor proposals to find the actual pricing and security differences.
-
-> **[Context]** You are an Operations Lead evaluating software vendors for our department. The audience is the procurement team, who needs bottom-line facts without marketing fluff.
-> **[Clarity]** Compare these three vendor proposals. Extract their data security protocols, their implementation timelines, and their baseline pricing.
-> **[Constraint]** Format the output as a comparison matrix (table). If a vendor does not mention a specific data point, write "Not Disclosed." Do not hallucinate numbers. Use an objective, clinical tone.
-> **[Content]** Here is Vendor A: [Text]. Here is Vendor B: [Text]. Here is Vendor C: [Text].
-
-## Human Resources: Survey Synthesis
-
-**The Bottleneck:** Reading through 200 anonymous employee survey responses to spot recurring themes.
-
-> **[Context]** You are an HR Business Partner reporting directly to the CEO. You need to summarize recent employee feedback regarding our return-to-office mandate.
-> **[Clarity]** Read the provided anonymous survey responses. Identify the three most common positive themes and the three most common negative themes.
-> **[Constraint]** Provide a short paragraph for each theme. For every theme, provide one direct quote from the raw data that perfectly encapsulates the sentiment. Do not include any PII if it accidentally appears in the text.
-> **[Content]** Here are the raw survey responses: [Text].
-
-## Marketing: Multi-Format Adaptation
-
-**The Bottleneck:** Writing a technical whitepaper, and then having to spend another entire day adapting it into emails, social posts, and sales briefs.
-
-> **[Context]** You are a B2B Marketing Copywriter. We just published a highly technical whitepaper on our new cybersecurity architecture.
-> **[Clarity]** Adapt this whitepaper into three new assets: 1) A promotional LinkedIn post targeting Chief Information Officers. 2) A 150-word outbound email for our sales team to send to prospects. 3) A short internal Slack announcement for our company.
-> **[Constraint]** The LinkedIn post must have a strong hook and use bullet points. The sales email must end with a single, clear call-to-action to book a demo. The Slack announcement must be casual and celebratory.
-> **[Content]** Here is the whitepaper text: [Text].
-
-## Capstone Milestone: The Big Four Bake-Off
-
-It is time to execute the core of your **AI Delegation Blueprint**.
-
-In Chapter 2.3, you audited your workflow and selected one safe, high-volume, bottleneck task from your actual job. Now, you will put it to the test.
-
-**Your Assignment:**
-
-1. **Draft your Prompt:** Using the templates above as inspiration, write a master prompt for your chosen task using the 4Cs Framework. Ensure your Context, Clarity, Constraint, and Content are explicitly defined.
-2. **The Bake-Off:** Open four separate browser tabs: ChatGPT, Gemini, Claude, and Copilot. Paste your exact 4Cs prompt into all four tools.
-3. **Document the Results:** Create a simple scorecard.
-* *Formatting:* Which model adhered best to your structural constraints?
-* *Tone:* Which model sounded the most like a professional in your company, and which sounded like a robot?
-* *Accuracy:* Did any of the models hallucinate or invent data that was not in your source content?
-
-
-By completing this bake-off, you will not only have a reusable prompt that saves you hours every week, but you will possess the critical fluency to know *which* tool is actually best suited for your department's specific needs.
-
-The Delegation Blueprint is the foundation. If you continue your AI journey into the companion **AI Integration** playbook, this same blueprint becomes the starting point for the AI Champion role — the person inside a department who turns individual fluency into organizational impact. The work you do here is reusable; do not throw it away.
-
+# Chapter 3.4: When the Intern Gets It Wrong (A Troubleshooting Guide)
+ 
+You wrote what felt like a solid prompt. The output was generic. You rephrased it and tried again. Still wrong. You tried a third time, got something marginally worse, and concluded what most professionals eventually conclude: "This tool just can't do what I need." You went back to doing it manually.
+ 
+This is the single most common way AI adoption quietly dies — not through a dramatic failure, but through a few frustrating attempts followed by silent abandonment. The irony is that a failing prompt is almost always fixable, and the fix is rarely "try again harder." It is "diagnose which part is broken."
+ 
+## The Capable Intern Has Not Failed — The Briefing Has
+ 
+Return to the mental model. If you gave a real intern a task three times and got poor work three times, you would not conclude the intern is incompetent. You would suspect your instructions were unclear. The same logic applies here. A repeatedly failing output is a diagnostic signal, and there are only four things that are usually wrong.
+ 
+## The Four-Part Diagnostic
+ 
+When an output disappoints, identify the *type* of failure before rewriting anything.
+ 
+| Symptom | Likely Cause | The Fix |
+|---|---|---|
+| Output is generic or could apply to any company | Missing **Context** | Add who the AI is, who the audience is, and why the task matters |
+| Output is the wrong shape (essay when you wanted a list) | Missing **Constraint** | Specify format, length, and structure explicitly |
+| Output invents facts or details | Missing **Content** | Paste the actual source material; never assume the AI knows your data |
+| Output answers a slightly different question | Ambiguous **Clarity** | State the exact verb: extract, compare, summarise, not "look at" |
+ 
+Notice that all four map directly to the 4Cs. A broken output is almost always a missing C.
+ 
+## The Recovery Techniques
+ 
+Beyond the diagnostic, three moves rescue most stuck situations.
+ 
+**1. Correct, do not restart.** The instinct to delete and rewrite from scratch throws away the context the AI already holds. Instead, tell it precisely what was wrong: *"This is too long and too formal. Cut it to 150 words and make the tone direct, as if briefing a busy colleague."* You are redirecting, not rebuilding.
+ 
+**2. Ask the AI to diagnose itself.** When you genuinely cannot see the problem, hand it back:
+ 
+> *"That response missed what I needed. Before rewriting, ask me three clarifying questions that would help you produce a better result."*
+ 
+The questions the AI asks will reveal exactly which piece of the briefing was missing. This single technique resolves a surprising share of stuck prompts.
+ 
+**3. Switch tools before giving up.** If a prompt fails repeatedly on one model, the same prompt may succeed on another — Claude, ChatGPT, Gemini, and Copilot have genuinely different strengths. A document-heavy task that frustrates one tool may run cleanly on Claude's larger context window. Failure on one platform is not failure of the task.
+ 
+## Know When to Stop
+ 
+Sometimes the honest answer is that the task is a poor fit — a judgment call requiring accountability, a decision needing relationship context the AI cannot have, or work where the verification would take longer than doing it yourself. Recognising these cases is fluency, not defeat. The goal is to accelerate the tedious parts of your work, not to force every task through an AI that is the wrong instrument for it.
+ 
 **Wrap-up**
-Abstract concepts do not save you time; concrete workflows do. By combining the 4Cs framework with specific departmental needs, you transform AI from a novelty chatbot into a high-powered, integrated assistant ready to handle your daily operational burdens.
+A failing prompt is a briefing problem, not a technology verdict. By diagnosing which of the 4Cs is missing, correcting rather than restarting, asking the AI to surface its own blind spots, and switching tools when one underperforms, you convert the frustration that ends most people's AI journey into a quick, repeatable recovery. The professionals who succeed with AI are simply the ones who learned to read the failure instead of fearing it.
