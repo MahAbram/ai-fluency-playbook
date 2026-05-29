@@ -1,4 +1,4 @@
-## Start Here: The 30-Minute Path
+# Start Here: The 30-Minute Path
 
 You picked up this playbook because something about AI is unresolved for you. Maybe you have used ChatGPT a few times and the outputs felt generic. Maybe your company keeps mentioning AI in all-hands meetings and you do not want to fall behind. Maybe you are tired of every article promising that AI will change your life without ever telling you what to actually type.
 
@@ -6,7 +6,7 @@ This playbook is comprehensive. You do not need to read all of it.
 
 If you have 30 minutes and want to walk away with something usable today, here is the shortest possible path.
 
-### The One Idea That Matters Most
+## The One Idea That Matters Most
 
 Stop thinking of AI as a search engine. Start thinking of it as a Capable Intern.
 
@@ -14,7 +14,7 @@ When you search Google, you type fragmented keywords and the engine retrieves li
 
 That mental shift is 80% of AI fluency. Everything else in this playbook is mechanics.
 
-### The One Framework That Works
+## The One Framework That Works
 
 To brief the intern effectively, use the 4Cs:
 
@@ -25,7 +25,7 @@ To brief the intern effectively, use the 4Cs:
 
 Every good AI prompt has all four. Every bad prompt is missing at least one.
 
-### The One Prompt to Try Today
+## The One Prompt to Try Today
 
 Pick a tedious task on your desk right now — summarizing a meeting transcript, drafting an update email, comparing two documents. Then write a prompt that looks like this:
 
@@ -36,13 +36,13 @@ Pick a tedious task on your desk right now — summarizing a meeting transcript,
 
 Run that prompt through whichever AI tool you have access to. Compare it to what you would normally get from a one-line instruction. The difference will be obvious.
 
-### The One Rule That Will Save You
+## The One Rule That Will Save You
 
 Never paste sensitive corporate data — unreleased financials, customer PII, trade secrets, or confidential contracts — into a public AI tool unless your IT or legal team has explicitly told you, in writing, that the tool is approved for that purpose. Data policies vary by provider and tier, they shift frequently, and the consequences of getting this wrong are not recoverable.
 
 If you are unsure whether your tool is approved, assume it is not.
 
-### Where to Go Next
+## Where to Go Next
 
 * **If you want the deep version of the 4Cs:** Read Chapter 3.2 and Chapter 3.3.
 * **If you want to know what AI cannot do well:** Read Chapter 1.3 ("The Capabilities Sandbox").
